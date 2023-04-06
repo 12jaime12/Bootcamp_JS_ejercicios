@@ -22,21 +22,23 @@ const counterWords = [
         });
         array.splice(i,acc-1)
         //delete(array[i]);
-        i++;
-        /*let palabras = [];
-        palabras.push(palabraC);
-        let repetidas = [];
-        repetidas.push(acc);
-        let palabrasTotal = [];
-        palabrasTotal.push(palabras[i]);
-        palabrasTotal.push(repetidas[i]);*/
-        if(palabraC != undefined){
-            console.log("la palabra "+palabraC+" esta repetida "+acc);
+        
+        
+
+        function Repetidas(palabra,numero) {
+            this.palabra = palabra;
+            this.numero = numero;
         }
+
+        let nuevo = new Repetidas(palabraC,acc);
+        i++;
+        //console.log(nuevo);
+        console.log("la palabra "+nuevo.palabra+" esta repetida "+nuevo.numero);
         //return palabrasTotal;
         //console.log(palabrasTotal[i]);
-        
+        //return nuevo;
     });
+    //return nuevo;
 }
-  console.log(repeatCounter(counterWords));
+  repeatCounter(counterWords);
 
