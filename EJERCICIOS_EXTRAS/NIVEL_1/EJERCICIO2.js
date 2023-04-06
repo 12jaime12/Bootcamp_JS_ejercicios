@@ -17,7 +17,6 @@ let veganas = (array1,array2) => {
             array2.splice(i,1);
             i++;
         }
-        
     });
     console.log(array1);
 }
