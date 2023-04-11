@@ -23,7 +23,7 @@ const movies = [
 let ejercicio1 = (array) => {
   let array2 = [];
   for (const movie of array) {
-    movie.categories.forEach((element, index) => {
+    movie.categories.forEach((element) => {
       !array2.includes(element) && array2.push(element);
     });
   }
