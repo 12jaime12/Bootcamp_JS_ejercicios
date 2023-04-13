@@ -2,6 +2,7 @@
 const numbers = [32, 21, 63, 95, 100, 67, 43];
 const aux = numbers.find((number) => number === 100);
 console.log(aux);
+console.log("-");
 //6.2
 const movies = [
   { title: "Madagascar", stars: 4.5, date: 2015 },
@@ -10,6 +11,7 @@ const movies = [
 ];
 const aux2 = movies.find((movie) => movie.date === 2010);
 console.log(aux2);
+console.log("-");
 //6.3
 const aliens = [
   { name: "Zalamero", planet: "Eden", age: 4029 },
@@ -31,3 +33,7 @@ const mutations = [
     description: "Invoca a un señor mayor como Personal Trainer",
   },
 ];
+const aux3 = aliens.find((alien) => alien.name === "Cucushumushu");
+const aux4 = mutations.find((mutation) => mutation.name === "Porompompero");
+const arrayAux = { nameAlien: aux3.name, ...aux3, ...aux4 };
+console.log(arrayAux);
