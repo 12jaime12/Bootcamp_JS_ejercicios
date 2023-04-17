@@ -1,0 +1,59 @@
+*{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: black;
+    color: red;
+    min-height: 10vh;
+    border-bottom:solid red 3px;
+
+}
+header img{
+    height: 50px;
+    width: 200px;
+    margin: 20px;
+    padding: 5px;
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    color: RED;
+    min-height: 80vh;
+    margin: 10px;
+}
+.titulo{
+    width: 100%;
+    border-bottom: solid red 1px;
+}
+.escuderia{
+    display: flex;
+    width: 350px;
+    text-align: center;
+}
+.pilotos{
+    display: flex;
+    gap: 30px;
+    margin: 10px;
+}
+.pilotos img{
+    transition: 300ms;
+}
+.pilotos img:hover{
+    transform: scale(1.1, 1.1);
+}
+
+.bandera{
+    width: 51px;
+    height: 35px;
+    border: solid black 1px;
+}
+footer {
+    background-color: black;
+    color: red;
+    min-height: 10vh;
+    padding: 10px;
+    border-top:solid red 3px;
+}
