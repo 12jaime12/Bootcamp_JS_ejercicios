@@ -21,8 +21,8 @@ const aux2 = exams.reduce((acc, exam) => {
 console.log(aux2);
 //7.3
 const aux3 = exams.reduce((acc, exam) => {
-  acc += exam.score;
+  acc += exam.score / exams.length;
   return acc;
 }, 0);
-let resultado = aux3 / exams.length;
-console.log(resultado);
+
+console.log(aux3);

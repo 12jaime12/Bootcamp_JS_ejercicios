@@ -14,8 +14,7 @@ const arrayAux1 = videogames.filter(
   (videogame) => (arrayaux = videogame.genders.includes("RPG"))
 );
 const aux = arrayAux1.reduce((acc, game) => {
-  acc += game.score;
+  acc += game.score / arrayAux1.length;
   return acc;
 }, 0);
-let resultado = aux / arrayAux1.length;
-console.log(resultado);
+console.log(aux);

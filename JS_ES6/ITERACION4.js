@@ -13,9 +13,10 @@ console.log("-");
 //4.2
 const arrayAux2 = users.map((user) => {
   if (user.name[0] === "A") {
-    return (user.name = "Anacleto");
+    user.name = "Anacleto";
+    return user;
   } else {
-    return user.name;
+    return user;
   }
 });
 console.log(arrayAux2);
