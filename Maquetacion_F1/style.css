@@ -35,7 +35,7 @@ main {
 }
 .escuderia{
     display: flex;
-    width: 350px;
+    width: auto;
     text-align: center;
     align-items: center;
     margin: 0px auto;
