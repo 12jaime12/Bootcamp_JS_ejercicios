@@ -1,5 +1,10 @@
+@font-face {
+    font-family: "formula";
+    font-weight: 300;
+    src: url(asset/fuentes/Formula1-Bold.otf);
+}
 *{
-    font-family: "Poppins", sans-serif;
+    font-family: "formula", sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -24,6 +29,9 @@ main {
     min-height: 80vh;
     margin: 10px;
 }
+main p{
+    margin: 5px;
+}
 .titulo{
     width: 100%;
     border-bottom: solid red 1px;
@@ -38,7 +46,7 @@ main {
     width: auto;
     text-align: center;
     align-items: center;
-    margin: 0px auto;
+    margin: 20px auto;
 }
 .pilotos{
     display: flex;
