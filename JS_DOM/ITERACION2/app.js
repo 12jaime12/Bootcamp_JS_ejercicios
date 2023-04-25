@@ -32,7 +32,6 @@ apps.forEach((element) => {
 });
 //2.7
 const removeList = document.querySelectorAll(".fn-remove-me");
-console.log(removeList);
 removeList.forEach((element) => {
   element.remove();
 });
